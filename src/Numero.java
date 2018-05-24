@@ -24,7 +24,7 @@ public class Numero {
 				return String.valueOf(valor);
 			}
 		}catch(NullPointerException e){
-			 return "Valor del número nulo.";
+			return "Valor del número nulo.";
 		}catch(Exception e) {
 			return "Error " + e;
 		}
